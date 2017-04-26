@@ -1,0 +1,4 @@
+*.gz
+dataset/__pycache__/__init__.cpython-35.pyc,dataset/__pycache__/mnist.cpython-35.pyc
+dataset/__pycache__/__init__.cpython-35.pyc
+dataset/__pycache__/mnist.cpython-35.pyc
