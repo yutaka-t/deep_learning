@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 
+from deep_learning.dataset.mnist import load_mnist
 import sys
 import os
 
 sys.path.append(os.pardir)
-from dataset.mnist import load_mnist
 
 (x_train, t_train), (x_test, t_test) = load_mnist(flatten=True, normalize=False)
 
